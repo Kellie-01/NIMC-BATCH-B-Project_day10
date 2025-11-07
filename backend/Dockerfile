@@ -10,7 +10,7 @@ RUN maven clean package -DskipTests
 
 #Stage 2
 
-FROM openjdk:11-jre
+FROM eclipse-temurin:11-jre
 
 WORKDIR /app
 
