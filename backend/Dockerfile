@@ -6,7 +6,7 @@ COPY pom.xml .
 
 COPY src ./src
 
-RUN maven clean package -DskipTests
+RUN mvn clean package -DskipTests
 
 #Stage 2
 
